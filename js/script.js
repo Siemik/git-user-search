@@ -1,5 +1,6 @@
 "use strict";
 
+// import UsersList from './components/UsersList/UsersList';
 class App extends React.Component {
   constructor() {
     super();
@@ -26,6 +27,7 @@ class App extends React.Component {
   }
 
   render() {
+    const {searchText, users} = this.state;
     return (
       <section className="container">
         <div className="search">
