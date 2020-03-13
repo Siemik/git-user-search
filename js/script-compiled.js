@@ -51,6 +51,10 @@ var App = function (_React$Component) {
     value: function render() {
       var _this3 = this;
 
+      var _state = this.state,
+          searchText = _state.searchText,
+          users = _state.users;
+
       return React.createElement(
         "section",
         { className: "container" },
